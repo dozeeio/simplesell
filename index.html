@@ -3,18 +3,11 @@
 this is simplesell
 </title>
 
-<body>
-simplesell
-
-<div id="what">
-illa
-</div>
-
 <script>
   
-var parser = document.createElement('a');
-parser.href = url;
-var query = parser.search.substring(1);
+//var parser = document.createElement('a');
+//parser.href = url;
+//var query = parser.search.substring(1);
 
 //alert(query)
 //var params = {};
@@ -25,10 +18,21 @@ var query = parser.search.substring(1);
 //var blah = urll.split('?')
 //alert(blah[1])
 //var vars = blah[1].split('&')
-	
-document.getElementById('what').innerHTML = "hi udit";
 
+function fetch()
+{
+	document.getElementById('what').innerHTML = "hi udit";
+}
 </script>
+
+	
+<body onload="fetch()">
+simplesell
+
+<div id="what">
+illa
+</div>
+
   
 </body>
 
