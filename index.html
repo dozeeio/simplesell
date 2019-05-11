@@ -8,7 +8,11 @@ simplesell
   
 <script>
   
-	alert(url);
+var params = {};
+	var parser = document.createElement('a');
+	parser.href = url;
+alert(parser.href);
+	
 	
 //getParams(window.location.href);
 
