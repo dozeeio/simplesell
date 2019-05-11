@@ -8,13 +8,18 @@ simplesell
   
 <script>
   
+var parser = document.createElement('a');
+parser.href = url;
+var query = parser.search.substring(1);
+
+alert(query)
 //var params = {};
 //	var parser = document.createElement('a');
 //	parser.href = url;
-var urll = window.location.href);
+//var urll = window.location.href);
 //alert(urll)
-var blah = urll.split('?')
-alert(blah[1])
+//var blah = urll.split('?')
+//alert(blah[1])
 //var vars = blah[1].split('&')
 	
 	
