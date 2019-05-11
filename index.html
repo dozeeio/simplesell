@@ -5,9 +5,6 @@ this is simplesell
 
 <script>
   
-//var parser = document.createElement('a');
-//parser.href = url;
-//var query = parser.search.substring(1);
 
 //alert(query)
 //var params = {};
@@ -21,7 +18,11 @@ this is simplesell
 
 function fetch()
 {
-	document.getElementById('what').innerHTML = "hi udit";
+	//var parser = document.createElement('a');
+	//parser.href = url;
+	//var query = parser.search.substring(1);
+	var urll = window.location.href
+	document.getElementById('what').innerHTML = urll; //"hi udit";
 }
 </script>
 
